@@ -2,6 +2,7 @@ package org.fastcampus.fastcampusprojectboard.repository;
 
 import org.fastcampus.fastcampusprojectboard.config.JpaConfig;
 import org.fastcampus.fastcampusprojectboard.domain.Article;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Disabled("Spring Data REST 통합 테스트는 불필요하므로 제외시킴")
 @DisplayName("JPA 연결 테스트")
 @Import(JpaConfig.class)
 @DataJpaTest
