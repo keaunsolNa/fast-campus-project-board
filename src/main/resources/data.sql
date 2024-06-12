@@ -1,3 +1,7 @@
+-- 테스트 계정
+insert into user_account (user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by) values
+('uno', 'asdf1234', 'Uno', 'uno@email.com', 'I am Uno', now(), 'uno', now(), 'uno');
+
 insert into Article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Nulla ac enim.', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Orange', 'Tyrone', 'Roxana', '2021-03-09 21:57:17', '2022-05-11 12:37:43');
 insert into Article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'Teal', 'Had', 'Regen', '2024-03-07 11:32:43', '2022-04-01 13:13:22');
 insert into Article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Fusce posuere felis sed lacus.', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Turquoise', 'Bridgette', 'Denys', '2024-03-07 03:12:47', '2022-07-12 10:32:25');
